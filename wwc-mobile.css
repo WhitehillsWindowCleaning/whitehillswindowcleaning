@@ -6,7 +6,18 @@
     body{
         overflow-x: hidden;
     }
-    
+
+    #phonesym{
+        display: block;
+        color: white;
+    }
+
+    h1{display: none;}
+
+    #email{display: none;}
+    #emailsym{display: block;}
+
+
     /* hide normal menu */
     .topnav{display: none;}
 

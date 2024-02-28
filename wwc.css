@@ -24,6 +24,13 @@
 
 }
 
+#phonesym{
+    display: none;
+}
+#emailsym{
+    display: none;
+}
+
 .flex-container-van{
     display:flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
