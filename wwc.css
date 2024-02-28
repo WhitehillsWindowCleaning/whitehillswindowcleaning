@@ -9,12 +9,12 @@
 }
 
 .flex-container-contact{
-    display: flex;
+    /* display: flex; */
     
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-    justify-content: space-between;
-
+    display: ruby-text;
+    /* justify-content: space-between; */
+color: white;
     margin: 0;
     background-color: #00acf2;
     align-items: center;
@@ -167,14 +167,9 @@ a:link{
 
 }
 
-h1{
-    font-weight: normal;
-    padding-right: 20%;
-    color: white;
-}
 
 #email{
-    padding-right: 5%;
+    /* padding-right: 5%; */
     font-size: 20pt;
     text-decoration: none;
 }
@@ -185,3 +180,32 @@ h1{
     .mobnav{display: none;}
 }
  */
+ footer{
+    background-color: #00acf2;
+    padding: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    ;
+    
+    
+ }
+#phone {
+    display: block;
+    margin:auto;
+    padding: 0;}
+
+
+#mailfoot{
+    display: block;
+    margin:auto;
+    padding-top: 2%;
+    text-decoration: none;
+
+ 
+}
+#fb{
+    display: block;
+margin:auto;
+float: right;
+
+}
