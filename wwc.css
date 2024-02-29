@@ -9,19 +9,23 @@
 }
 
 .flex-container-contact{
-    /* display: flex; */
+display: flex; 
     
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: ruby-text;
-    /* justify-content: space-between; */
+
+justify-content: space-between; 
 color: white;
     margin: 0;
     background-color: #00acf2;
     align-items: center;
 
-    
 
+}
+#phlogo{display: none;}
 
+h1{
+    font-weight: normal;
+    padding:2%;
 }
 
 #phonesym{
@@ -192,7 +196,8 @@ a:link{
 #phone {
     display: block;
     margin:auto;
-    padding: 0;}
+    padding: 2%;
+}
 
 
 #mailfoot{

@@ -13,6 +13,12 @@
         color: white;
         text-decoration: none;
     }
+    
+    #phlogo{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+    }
 
     h1{display: none;}
 
@@ -91,6 +97,14 @@
    #pho{
     margin: 0;
    }
-   footer{display: none;}
+   footer{
+    
+    display: grid;
+    /* display: none; */
+}
+    #phone{
+font-size: 14pt;
+    }
+
 }   
     
