@@ -79,6 +79,7 @@ h1{
     max-width: 450px;
     height: auto;
     text-align: left;
+    padding: 5%;
 }
 
 p{
@@ -252,4 +253,15 @@ text-align: center;}
     padding: 10px;
     a:link{color: #00acf2;}
 
+}
+
+#st{
+    width: 150px;
+    height: auto;
+
+}
+
+#solar{
+    
+    width: 300px;
 }
