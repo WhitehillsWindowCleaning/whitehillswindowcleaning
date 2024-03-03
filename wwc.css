@@ -265,3 +265,17 @@ text-align: center;}
     
     width: 300px;
 }
+
+#consquote{
+background-color: #00acf2;
+color: white;
+padding: 5%;
+}
+
+#gutprice{
+    background-color: #00acf2;
+color: white;
+padding: 5%;
+font-size: 20pt;
+    
+}
