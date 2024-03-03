@@ -106,7 +106,7 @@
 font-size: 14pt;
     }
 
-}   
+
     
 
 /*
@@ -114,3 +114,8 @@ font-size: 14pt;
     background-color: #00acf2;
  }
    */
+
+.wcinfo{
+    display: block;
+}
+}   
