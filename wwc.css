@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18pt;
+    font-size: 16pt;
     flex-wrap: wrap;
 
 }
@@ -28,11 +28,12 @@ display: none;
 h1{
     font-weight: normal;
     padding-left:2%;
+    font-size: 18pt;
 }
 
 h2{
     font-weight: normal;
-    font-size: 25pt;
+    font-size: 18pt;
 }
 
 #phonesym{
@@ -45,7 +46,7 @@ h2{
 .flex-container-van{
     display:flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
     flex-wrap: wrap;
     margin: 2%;
     
@@ -89,14 +90,14 @@ h2{
 
 p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
    text-align: center;
     
 }
 
 .wcinfo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: left;
     display: flex;
     padding-left: 5%;
@@ -107,7 +108,7 @@ p{
 
 .wctext{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: left;
     display: block;
     padding-left: 5%;
@@ -162,7 +163,7 @@ p{
 /*dropdown button*/
 .subnav .subnavbtn{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
     border: none;
     outline: none;
     color:white;
@@ -203,14 +204,14 @@ p{
 
 .contact{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20pt;
+    font-size: 16pt;
     padding-left: 10%;
    display: inline-block;
 }   
 
 a:link{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: right;
 
     padding:8pt;
@@ -223,7 +224,7 @@ a:link{
 
 #email{
     /* padding-right: 5%; */
-    font-size: 20pt;
+    font-size: 16pt;
     text-decoration: none;
 }
 
@@ -234,13 +235,20 @@ a:link{
 }
  */
  footer{
+
+
     background-color: #00acf2;
-    padding: 5%;
+  
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    ;
+    display: flex;
+ 
     
     
+ }
+
+ #phonefoot{
+    font-size: 14pt;
  }
 #phone {
     display: block;
@@ -252,7 +260,7 @@ a:link{
 #mailfoot{
     display: block;
     margin:auto;
-    padding-top: 2%;
+
     text-decoration: none;
 
  
@@ -311,13 +319,13 @@ padding: 5%;
     background-color: #00acf2;
 color: white;
 padding: 5%;
-font-size: 20pt;
+font-size: 16pt;
     
 }
 
 ul{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
     background-color: #00acf2;
     color: white;
     padding-left: 5%;
@@ -334,7 +342,7 @@ h3{
 #contacts{
     color:black;
     display:block;
-    font-size: 20pt;
+    font-size: 16pt;
     text-decoration: none;
     text-align: center;
     padding: 3%;
