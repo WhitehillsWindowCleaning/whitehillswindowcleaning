@@ -30,6 +30,11 @@ h1{
     padding-left:2%;
 }
 
+h2{
+    font-weight: normal;
+    font-size: 25pt;
+}
+
 #phonesym{
     display: none;
 }
@@ -267,6 +272,8 @@ body{max-width: 1024px;
 
 #card{
     max-width: 450px;
+    padding-bottom: 5%;
+    
 }
 
 h2{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -324,3 +331,24 @@ h3{
     text-decoration: underline;
 }
 
+#contacts{
+    color:black;
+    display:block;
+    font-size: 20pt;
+    text-decoration: none;
+    text-align: center;
+    padding: 3%;
+
+}
+
+.fbk{
+    color: #316ff6;
+}
+
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}

@@ -42,8 +42,9 @@
         
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20pt;
-        flex-wrap: wrap;
+        padding: 1%;
         justify-content: space-between;
+
     
     }
     
@@ -73,6 +74,7 @@
 
 .flex-container{
     margin: 0;
+
 }
 
 
@@ -104,6 +106,7 @@
 }
     #phone{
 font-size: 14pt;
+padding-bottom: 5%;
     }
 
 
@@ -117,5 +120,33 @@ font-size: 14pt;
 
 .wcinfo{
     display: block;
+}   
+
+ul{
+    font-size: 14pt;
+    list-style-type: none;
+}
+
+h3{
+    font-size: 14pt;
+}
+
+
+
+h2{
+    font-weight: normal;
+    font-size: 20pt;
+}
+
+#card{
+    max-width: 350px;
+    padding-bottom: 5%;
+    
+}
+#contactme, #contacts   {
+    font-size: 14pt;
+    padding-left:5%;
+    padding-right: 5%;
 }
 }   
+
