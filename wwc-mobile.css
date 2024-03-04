@@ -47,6 +47,12 @@
 
     
     }
+
+    .wctext{
+
+        font-size: 12pt;
+  
+    }
     
     #info{
         padding: 3%;
@@ -123,12 +129,12 @@ padding-bottom: 5%;
 }   
 
 ul{
-    font-size: 14pt;
+    font-size: 12pt;
     list-style-type: none;
 }
 
 h3{
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 
