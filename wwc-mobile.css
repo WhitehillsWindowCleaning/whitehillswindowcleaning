@@ -48,12 +48,7 @@
     
     }
 
-    .wctext{
 
-        font-size: 12pt;
-  
-    }
-    
     #info{
         padding: 3%;
     }
@@ -129,12 +124,12 @@ padding-bottom: 5%;
 }   
 
 ul{
-    font-size: 12pt;
-    list-style-type: none;
+    font-size: 14pt;
+    list-style-type: none; 
 }
 
 h3{
-    font-size: 12pt;
+    font-size: 14pt;
 }
 
 
@@ -153,6 +148,10 @@ h2{
     font-size: 14pt;
     padding-left:5%;
     padding-right: 5%;
+}
+
+#fb{
+    padding:4%;
 }
 }   
 
