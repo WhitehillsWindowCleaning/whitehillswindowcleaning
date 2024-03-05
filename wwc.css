@@ -52,11 +52,15 @@ h2{
     margin: 2%;
     
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
  
 
 }
 
+#info{
+
+    text-align: center;
+}
 
 #pho{
     width: 350px;
@@ -361,4 +365,47 @@ h3{
     flex-direction: column;
     align-content: center;
     align-items: center;
+}
+
+.fa-ul{
+
+    list-style-type: none;
+    margin-left: auto !important;
+
+    margin-right: auto !important;
+
+    display: table;
+}
+
+.polaroid{
+width: 400px;
+background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-bottom: 25px;
+text-align: center;
+
+}
+
+.flex-container-polar{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.flex-container-polar a{
+    text-decoration: none;
+color: black;
+}
+
+
+
+.flex-container-polar p{
+    font-size: 16pt;
+    text-align: center;
+    padding-bottom: 25pt;
+
 }
