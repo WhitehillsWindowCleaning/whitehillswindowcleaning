@@ -64,6 +64,7 @@
     #info{
 
         text-align: center;
+        padding-bottom: 3%;
     }
 
 
@@ -71,7 +72,7 @@
     color:white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17;
+
     display: block;
     background-color: #00acf2;
 }
@@ -110,7 +111,7 @@
         text-decoration: none;
     }
 
-   #pho{
+   .pho{
 
     width: 85%;
     height: auto;

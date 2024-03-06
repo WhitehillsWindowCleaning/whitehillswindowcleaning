@@ -8,7 +8,17 @@
     
     <title> Whitehills Window Cleaning</title>
     <script src="https://kit.fontawesome.com/09eb1bdeb6.js" crossorigin="anonymous"></script>
-
+    <script>
+        function openMenu(){
+        var x = document.getElementById("myLinks");
+        if (x.style.display=== "block"){
+            x.style.display = "none";   
+        }
+        else{
+            x.style.display = "block";
+        }
+        }
+        </script>
 </head>
 
 <body>
@@ -47,7 +57,7 @@
         <i class="fa fa-caret-down"></i>
     </button>
     <div class="subnav-content">
-<a href = "Window Cleaning.html">Window Cleaning</a>
+<a href = "WindowCleaning.html">Window Cleaning</a>
 <a href = "Gutter.html">Gutter Vac</a>
 <a href = "Soffit.html">Fascias</a>
 <a href = "Conservatory.html">Conservatory Cleaning</a>
@@ -71,7 +81,7 @@
 
 <div id="myLinks">
 
-    <a href = "Window Cleaning.html">Window Cleaning</a>
+    <a href = "WindowCleaning.html">Window Cleaning</a>
     <a href = "Gutter.html">Gutter Vac</a>
     <a href = "Soffit.html">Fascias</a>
     <a href = "Conservatory.html">Conservatory Cleaning</a>
@@ -89,8 +99,9 @@
     
 <div class="flex-container-van">
 
-    <div>
-        <p id="info">Are you looking for a first class window cleaning service that ticks all the boxes?
+    <div id="info">
+        <!-- <p id="info"> -->
+            Are you looking for a first class window cleaning service that ticks all the boxes?
             <ul class="fa-ul">
             <li><span class="fa-li"><i class="fa-solid fa-square-check " style="color:#00acf2;"></i> </span>Local<br></li>
             <li><span class="fa-li"><i class="fa-solid fa-square-check " style="color:#00acf2;"></i> </span>Professional<br></li>
@@ -98,11 +109,11 @@
             <li><span class="fa-li"><i class="fa-solid fa-square-check " style="color:#00acf2;"></i> </span>Reliable<br></li>
             <li><span class="fa-li"><i class="fa-solid fa-square-check " style="color:#00acf2;"></i> </span>Affordable<br></li>
             </ul>
-            <div id="info">
+            <!-- <div id="info"> -->
             Then look no further!<br><br>
-            Here at Whitehills Window Cleaning I offer cost effective exterior cleaning services with a personal touch  
-        </p>
-    </div>
+            Here at Whitehills Window Cleaning I offer cost effective exterior cleaning services with a personal touch <br>
+        <!-- </p> -->
+   
     </div>
 
     <div>
@@ -112,7 +123,7 @@
 </div>
 
 <div>
-<p>Services - Click to find out more</p>
+<p>Services - Click image to find out more</p>
 </div>
 
 
@@ -120,29 +131,29 @@
 
 <div class="flex-container-polar">
 
-<a  href = "Window Cleaning.html"><div class="polaroid">
-        <img id="pho" src="images/wwc1.jpeg" alt="">
+<a  href = "WindowCleaning.html"><div class="polaroid">
+        <img class="pho" src="images/wwc1.jpeg" alt="">
         <p>Window Cleaning</p>
     </div>
 </a>
 <a href = "Gutter.html">  <div class="polaroid">
-        <img id="pho" src="images/gut.jpeg" alt="">
-        <p>Gutter Vaccuming</p>
+        <img class="pho" src="images/gut.jpeg" alt="">
+        <p>Gutter Vacuuming</p>
     </div></a>
 
 
 <a href = "Soffit.html">    <div class="polaroid">
-        <img id="pho" src="images/soffit2.jpg" alt="">
+        <img class="pho" src="images/soffit2.jpg" alt="">
         <p> Fascia Cleaning</p>
     </div></a>
 
 <a href = "Solar.html">  <div class="polaroid">
-        <img id="pho" src="images/Solarsq.jpg" alt="">
+        <img class="pho" src="images/Solarsq.jpg" alt="">
         <p>Solar Panel Cleaning</p>
     </div></a>    
 <a href = "Conservatory.html">
     <div class="polaroid">
-        <img id="pho" src="images/van.jpeg" alt="">
+        <img class="pho" src="images/van.jpeg" alt="">
         <p>Conservatory Roof Cleaning</p>
     </div></a>
 
@@ -162,7 +173,7 @@
 
 
 
-</body>
+
 
      <footer>  
 
@@ -179,25 +190,8 @@
 
 
 </footer> 
-
+</body>
 
 
 </html>
 
-<script>
-
-
-function openMenu(){
-
-var x = document.getElementById("myLinks");
-if (x.style.display=== "block"){
-    x.style.display = "none";
-    
-}
-else{
-    x.style.display = "block";
-}
-}
-
-
-</script>

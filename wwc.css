@@ -66,7 +66,7 @@ h2{
     line-height: 1.5;
 }
 
-#pho{
+.pho{
     width: 350px;
     height: 350px;
     margin: 5%;
@@ -311,10 +311,10 @@ text-align: center;}
     text-align: center;
     border: 10px solid #00acf2;
     padding: 10px;
-    a:link{color: #00acf2;}
     margin:2%;
-
 }
+
+/* a:link{color: #00acf2;} */
 
 #st{
     width: 150px;
@@ -384,7 +384,14 @@ h3{
     flex-direction: column;
     align-content: center;
     align-items: center;
+    color: black;
 }
+.contacts a:link{
+
+    color: black;
+    text-decoration: none;
+}
+
 
 .fa-ul{
 
@@ -394,6 +401,7 @@ h3{
     margin-right: auto !important;
 
     display: table;
+    text-align: left;
 }
 
 .polaroid{
