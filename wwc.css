@@ -62,7 +62,7 @@ h2{
 
 }
 
-#info{
+.info{
 
     text-align: center;
     line-height: 1.5;
@@ -89,7 +89,7 @@ h2{
 }
 
 
-#info{
+.info{
     max-width: 450px;
     height: auto;
 }
@@ -401,11 +401,13 @@ h3{
     list-style-type: none;
     margin-left: auto !important;
 
-    margin-right: auto !important;
-
+    margin-right: auto !important;  
+    
     display: table;
     text-align: left;
 }
+
+li{padding:2%}
 
 .polaroid{
 width: 400px;
@@ -447,4 +449,5 @@ color: black;
 .wctext a{
     color: black;
 }
+
 
